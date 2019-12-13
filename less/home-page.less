@@ -33,6 +33,12 @@
       @media @phone {
         width: 100%;
       }
+
+      &:hover {
+        border: .5rem solid transparent;
+        .animation-stats(img-animation, 2s);
+        .animation-content(img-animation, @waterloo, @btn-bg-color);
+      }
     }
 
     @media @phone {
@@ -44,6 +50,7 @@
         display: none;
       }
     }
+
   }
 
   .visit-planets {
@@ -81,6 +88,7 @@
 
         &:hover {
           .button-custom(white, @btn-bg-color);
+          border: .15rem solid @btn-bg-color;
         }
       }
 
@@ -97,6 +105,12 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        &:hover {
+          border: .5rem solid transparent;
+          .animation-stats(img-animation, 2s);
+          .animation-content(img-animation, @waterloo, @btn-bg-color);
+        }
       }
 
       @media @phone {

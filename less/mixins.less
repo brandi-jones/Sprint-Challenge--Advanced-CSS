@@ -26,3 +26,15 @@
         padding: 2rem;
     }
 }
+
+.animation-stats(@name, @duration) {
+    animation-name: @name;
+    animation-duration: @duration;
+}
+
+.animation-content(@name, @color1, @color2){
+    @keyframes @name {
+        from {border-color: @color1;}
+        to {border-color: @color2;}
+    }
+}
