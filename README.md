@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    - An adaptive layout accommodates different devices at specific breakpoints in design by using media queries. An adaptive website may have hardcoded pixels used for layout while using media queries for specific break points. Responsive websites use % based layouts for a seamless feeling between devices. Responsive sites accommodate thousands of devices and take longer to build, while adaptive is more target for specific devices and quick deployment.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    - When designing mobile first, you’d use “min-width” for media queries, when designing desktop first, you’d use “max-width”. With mobile first, the idea is that you will design and code for a mobile device first, and then expand the layout as you gain more screen space towards desktop, and therefore desktop first is the inverse.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    - You can then convert rem units by the power of 10, meaning 1rem would equal 10px, and therefore makes calculations easier.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    - Preprocessing has a few steps. First, you have a language or syntax that you write your code in, and then you have a compiler that converts/outputs that code into code that will then be used as input for another program/process. In regard to our current learning here at Lambda, we have a language we use to style our HTML (CSS). In order for us to use CSS more efficiently by being able to organize things within our CSS documents, making it easier to use, we use another language called LESS. We then use a compiler (Node) that converts our LESS code into CSS. Our CSS code is then read by the browser to style our HTML.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    - I love that with preprocessing, you are able to more easily create your CSS code, while making your code more readable for not only yourself but other developers. The concept that probably gives me the most trouble is the compiler itself and not quite understanding yet the full inner workings of that, but I plan to do further research that way I get a better all around understanding.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
